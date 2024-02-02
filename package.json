@@ -1,0 +1,44 @@
+{
+  "name": "perdil-ui",
+  "version": "1.0.3",
+  "private": false,
+  "license": "ISC",
+  "description": "Perdil UI Kit for React Native is a cutting-edge user interface toolkit designed to streamline the development of stunning mobile applications. With its sleek and modern design, Perdil offers a comprehensive set of customizable components, ensuring a seamless and visually appealing user experience. Crafted specifically for React Native, developers can effortlessly integrate these components into their projects, saving time and effort in UI development. From stylish navigation bars to interactive buttons and dynamic input fields, Perdil UI Kit empowers developers to create polished and responsive mobile apps with ease. Elevate your React Native projects with the sophisticated and user-friendly Perdil UI Kit",
+  "main": "index.js",
+  "author": "Acquaint softtech",
+  "repository": "git+https://github.com/acquaint-softtech/perdilUI.git",
+  "homepage": "https://github.com/acquaint-softtech/perdilUI#readme",
+  "bugs": {
+    "url": "https://github.com/acquaint-softtech/perdilUI/issues"
+  },
+  "workspaces": {
+    "packages": [
+      "src/*"
+    ]
+  },
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "dependencies": {
+    "nativewind": "^2.0.11",
+    "tailwindcss": "3.3.2"
+  },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.73.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "@react-native/babel-preset": "^0.73.18",
+    "@react-native/eslint-config": "^0.73.1",
+    "@react-native/metro-config": "^0.73.2",
+    "babel-jest": "^29.6.3",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "jest": "^29.6.3",
+    "prettier": "2.8.8",
+    "react-test-renderer": "18.2.0"
+  }
+}
